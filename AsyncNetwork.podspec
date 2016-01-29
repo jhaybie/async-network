@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/jhaybie/async-network"
   s.license          = 'MIT'
   s.author           = "Jonathan Diehl"
-  s.source           = { :git => "https://github.com/jdiehl/async-network.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/jhaybie/async-network.git", :tag => s.version.to_s }
   s.requires_arc     = true
   s.source_files     = 'AsyncNetwork'
   s.osx.frameworks        = 'CFNetwork', 'Security'
