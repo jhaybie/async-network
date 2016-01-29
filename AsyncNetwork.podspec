@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "AsyncNetwork"
-  s.version          = "1.1.1"
+  s.version          = "1.2.0"
   s.summary          = "Simple Socket Networking"
   s.description      = "iOS / Cocoa Framework for socket networking based on CocoaAsyncSocket"
   s.homepage         = "https://github.com/jdiehl/async-network"
