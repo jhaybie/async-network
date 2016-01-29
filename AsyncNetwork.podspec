@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = "1.1.1"
   s.summary          = "Simple Socket Networking"
   s.description      = "iOS / Cocoa Framework for socket networking based on CocoaAsyncSocket"
-  s.homepage         = "https://github.com/jdiehl/async-network"
+  s.homepage         = "https://github.com/jhaybie/async-network"
   s.license          = 'MIT'
   s.author           = "Jonathan Diehl"
   s.source           = { :git => "https://github.com/jdiehl/async-network.git", :tag => s.version.to_s }
@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.7'
   s.ios.frameworks        = 'CFNetwork', 'Security'
   s.ios.deployment_target = '5.0'
+  s.tvos.frameworks        = 'CFNetwork', 'Security'
   s.tvos.deployment_target = '9.0'
   s.dependency 'CocoaAsyncSocket'
 end
